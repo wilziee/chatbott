@@ -1,0 +1,27 @@
+{
+    "intents": [
+        {
+            "id": "greeting",
+            "keywords": ["halo", "hai", "ping", "selamat pagi", "hei"],
+            "responses": [
+                "Halo! Ada yang bisa Xaerisoft bantu hari ini?",
+                "Hai, penjelajah alam semesta! Apa yang ingin kamu ketahui?"
+            ]
+        },
+        {
+            "id": "identity",
+            "keywords": ["siapa kamu", "nama kamu", "kamu siapa"],
+            "responses": [
+                "Saya adalah Xaerisoft AI. Sistem cerdas yang dibangun khusus untuk membantu Anda."
+            ]
+        },
+        {
+            "id": "fallback",
+            "keywords": [],
+            "responses": [
+                "Maaf, sepertinya data tersebut belum ada dalam memori semesta saya. Bisa jelaskan lebih detail?",
+                "Sistem saya belum menemukan jawaban untuk itu di knowledge base saat ini."
+            ]
+        }
+    ]
+}
